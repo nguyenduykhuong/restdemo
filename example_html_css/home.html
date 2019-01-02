@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Local bootstrap CSS & JS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/angular.js"></script>
+	<script src="js/app.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+  <body >
+      <div class="container panel panel-body" ng-controller="Ctrcontroller">
+
+      	<div class="top">
+      		<div class="top-header">
+      			
+      		</div>
+			<div class="inputmain">
+				<form action="" method="POST" role="form" name="myForm">
+					<span><p>ID</p></span><input type="text" name="inputid" class="form-control" value="" required="required" pattern="" title="" ng-model="idcar">
+					 <span><p>Name</p></span><input type="text" name="inputname" class="form-control" value="" required="required" pattern="" title="" ng-model="namecar"> 				
+					 <span><p>Price</p></span><input type="text" name="inputprice" class="form-control" value="" required="required" pattern="" title="" ng-model="priceCar"> 				
+					 <span><p>Description</p></span><input type="text" name="inputdes" class="form-control" value="" required="required" pattern="" title="" ng-model="descar"> 				 				
+					 <div class="btn-group"> 					
+					 <button type="button" class="btn btn-default" ng-disabled="myForm.$invalid">ADD</button>				
+					  <button type="button" class="btn btn-default">DELETE</button> 				
+					</div> 				
+				</form>
+			</div>
+
+      	</div>
+      	<div class="panel panel-default">
+      		<!-- Default panel contents -->
+      		<div class="panel-heading">Panel heading</div>
+      		
+      		<!-- Table -->
+      		<table class="table">
+      			<thead>
+      				<tr>
+      					<th>ID</th>
+      					<th>Name</th>
+      					<th>Price</th>
+      					<th>Description</th>
+      				</tr>
+      			</thead>
+      			<tbody>
+      				<tr>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      				</tr>
+      				<tr>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      				</tr><tr>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      				</tr><tr>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      					<td>{{x}}</td>
+      				</tr>
+      			</tbody>
+      		</table>
+      	</div>
+      </div>
+<div class="panel panel-default">
+	<div class="panel-body">
+		Panel content
+	</div>
+	<div class="panel-footer">
+		Panel footer
+	</div>
+</div>
+  </body>
+</html>

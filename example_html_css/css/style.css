@@ -1,0 +1,14 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.btn-group {
+    margin-top: 15px;
+}
+.panel-default {
+    margin-top: 15px;
+}
+.container{
+	margin-top:3%;
+	outline:double #333;
+}
